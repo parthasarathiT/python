@@ -1,0 +1,3 @@
+age =35
+x = "this your age {}"
+print(x.format(age))
