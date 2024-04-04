@@ -1,0 +1,2 @@
+string ="program"
+print(string[::-1])
