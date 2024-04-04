@@ -1,0 +1,7 @@
+x=int(input("enter an integer:"))
+y=int(input("enter an integer:"))
+print("addition = ",x+y)
+print("subtraction = ,x-y)
+print("multipication = ",x*y)
+print("division = ",x%y)
+print("quotient = ",x/y)
