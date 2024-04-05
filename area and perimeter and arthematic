@@ -1,0 +1,27 @@
+# area and perimeter of circle
+radius =float(input("enter the value:"))
+print("area of circle:",3.14*radius**2)
+print("perimeter of circle:",2*3.14*radius)
+
+## rectangle area and perimter
+length =int(input("enter the length:"))
+breadth=int(input("enter the breadth:"))
+print("area of rectangle:",length*breadth)
+print("perimter of rectangle:",2*(length+breadth))
+
+# simple and compud intrest
+power =int(input("enter the power"))
+rate=int(input("enter the rate:"))
+time=int(input("enter the time:"))
+simple =power*rate*time/100
+compound =( power*(1+rate)**time-1)
+print(simple)
+print(compound)
+
+##arthematic
+a=int(input("enter a value:"))
+b=int(input("enter hte b value:"))
+print("Addition=",a+b)
+print("subtraction=",a-b)
+print("division=",a/b)
+print("multiplication=",a*b)
