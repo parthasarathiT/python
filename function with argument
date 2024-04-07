@@ -1,0 +1,4 @@
+def my_function(first, last):
+  print(first + " " + last)
+
+my_function("vi", "king")
