@@ -1,0 +1,9 @@
+string =input("enter the string")
+w=""
+for i in string:
+     w=i+w
+     if(string==w):
+         print("palindrome")
+         break
+else:
+             print("not a palindrome")
