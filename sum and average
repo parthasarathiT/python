@@ -1,0 +1,14 @@
+def sum(a,b,c):
+    e=a+b+c
+    return e
+   
+def average(a):
+    d=a/3
+    return d
+a=1
+b=2
+c=3
+d=sum(a,b,c)
+average(d)
+print(d)
+print(average(d))
