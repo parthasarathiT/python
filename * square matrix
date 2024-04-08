@@ -1,0 +1,8 @@
+rows= int(input("Please Enter any Side of a Square  : "))
+
+print("Square Star Pattern")
+
+for i in range(rows):
+    for i in range(rows):
+        print('*', end = '  ')
+    print()
