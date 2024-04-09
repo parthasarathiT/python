@@ -1,0 +1,10 @@
+nterms=int(input("enter number of values:"))
+list1=[1,2,3,4,5]
+for var in range (0,nterms,1):
+    res=int(input("enter integer:"))
+    list1.append(res)
+print("circulating the elements oflist",list1)
+for var in range(0,nterms,1 ):
+    res=list1.pop(0)
+    list1.append(res)
+    print(list1)
