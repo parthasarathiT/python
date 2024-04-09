@@ -1,0 +1,17 @@
+first=[[1,2,3],
+       [4,5,6],
+       [7,8,8]]
+second=[[1,2,3],
+        [4,3,2],
+        [5,6,7]]
+res =[[0,0,0],
+      [0,0,0],
+      [0,0,0]]
+for i in range(len(first)):
+      for j in range(len(second)):
+          res[i][j]=first[i][j]+second[i][j]
+for i in  res:
+     for j in i:
+      
+         print(j,end=' ')
+     print()
