@@ -1,0 +1,6 @@
+def my_func(a):
+ if a is b:
+    return 
+a=[1,2,3,4,5]
+b=list[a]
+print(b)
