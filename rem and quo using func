@@ -1,0 +1,10 @@
+ def my_func(a,b):
+    rem=a%b
+    quo=a//b
+    return  (rem,quo)
+a =eval(input("enter the number"))
+b=eval(input("enter the number"))
+rem,qou =my_func(a,b)
+print("remainder",rem)
+print("quotinet",qou)
+
