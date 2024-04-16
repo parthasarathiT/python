@@ -1,0 +1,8 @@
+def this_func(list1):
+    small_=min(list1)
+    big_=max(list1)
+    return (small_,big_)
+list1=[1,0,2,3,3,4,543,54,21,5,4765,765,432098,543221,-43211,4332,2]
+small_,big_=this_func(list1)
+print("minimum element",small_)
+print("maximum element",big_)
